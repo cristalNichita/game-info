@@ -19,6 +19,11 @@
             <img src="/src/assets/img/socials/telegram.png" alt="Telegram">
         </a>
     </li>
+    <li>
+        <a target="_blank" href="https://discord.gg/t8Aux8eNCU">
+            <img src="/src/assets/img/socials/discord.png" alt="Discord">
+        </a>
+    </li>
 </template>
 
 <script>

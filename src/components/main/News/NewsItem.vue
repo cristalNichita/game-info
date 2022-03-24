@@ -10,7 +10,7 @@
         </div>
         <div class="news_content_wrapper">
             <div class="news_date_wrapper">
-                <h6>{{ item.date }}</h6>
+                <h6>{{ parseDateFunc(item.date) }}</h6>
             </div>
             <div class="news_title_wrapper">
                 <h3>{{ item.title }}</h3>
@@ -23,11 +23,19 @@
 </template>
 
 <script>
+import moment from 'moment';
+
 export default {
     props: {
         item: {
             type: Object,
             required: true,
+        }
+    },
+
+    methods: {
+        parseDateFunc(date) {
+            return moment(date).format('DD.MM.YYYY');
         }
     }
 }
