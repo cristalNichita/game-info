@@ -4,7 +4,7 @@
     >
         <div class="news_img_wrapper">
             <img 
-                :src="item.image" 
+                :src="'http://127.0.0.1:8000/assets/api/' + item.image" 
                 :alt="item.title"
             >
         </div>
