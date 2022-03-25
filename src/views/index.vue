@@ -17,9 +17,9 @@
 </template>
 
 <script>
-import Slider from "@/components/main/Slider.vue";
-import News from "@/components/main/News/News.vue";
-import Videos from "@/components/main/Videos/Videos.vue";
+import Slider from "@/components/Slider.vue";
+import News from "@/components/News/News.vue";
+import Videos from "@/components/Videos/Videos.vue";
 
 export default {
     components: {
